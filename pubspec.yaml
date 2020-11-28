@@ -1,0 +1,73 @@
+name: example
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  responsive_builder: 0.2.0+2
+  dio: 3.0.9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/top_mobile.png
+  - assets/top_tablet.png
+  - assets/mob_back_layer1.png
+  - assets/mob_back_layer2.png
+  - assets/mob_middle1.png
+  - assets/mob_middle2.png
+  - assets/xdev_small_logo.png
+  - assets/tablet/scroller.png
+  - assets/tablet/scroller.jpg
+  - assets/tablet/1.png
+  - assets/tablet/2.png
+  - assets/tablet/3.png
+  - assets/tablet/4.png
+  - assets/tablet/5.png
+  - assets/tablet/6.png
+  - assets/tablet/7.png
+  - assets/tablet/8.png
+  - assets/tablet/9.png
+  - assets/tablet/9.jpg
+  - assets/tablet/10.png
+  - assets/tablet/10.jpg
+  - assets/tablet/11.png
+  - assets/tablet/12.png
+  - assets/tablet/13.png
+  - assets/tablet/14.png
+  - assets/tablet/15.png
+  - assets/tablet/16.png
+  - assets/tablet/17.png
+  - assets/tablet/18.png
+  - assets/tablet/19.png
+  - assets/tablet/20.png
+  - assets/tablet/20.jpg
+  - assets/tablet/solution.png
+  - assets/tablet/chair.png
+  - assets/desktop/top.png
+  - assets/desktop/top.jpg
+
+  fonts:
+    - family: AnonymousPro
+      fonts:
+        - asset: assets/AnonymousPro-Bold.ttf
+          weight: 700
+        - asset: assets/AnonymousPro-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/AnonymousPro-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/AnonymousPro-Regular.ttf
+          weight: 400
